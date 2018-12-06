@@ -4,7 +4,16 @@ AWS Appsync Demo is small project to install and test AWS Appsync to build a sma
 
 https://www.youtube.com/watch?v=a_klcMRUfaM
 
-Here is a link to additional resources: https://aws.amazon.com/appsync
+Here are links to additional resources: https://aws.amazon.com/appsync, https://aws-amplify.github.io/docs/
+
+## Getting Started
+
+#### Prerequisites
+
+* [AWS Account](https://aws.amazon.com/mobile/details) with appropriate permissions to create the related resources
+* [NodeJS](https://nodejs.org/en/download/) with [NPM](https://docs.npmjs.com/getting-started/installing-node)
+* [AWS CLI](http://docs.aws.amazon.com/cli/latest/userguide/installing.html) `(pip install awscli --upgrade --user)`
+* [AWS Amplify CLI](https://github.com/aws-amplify/amplify-cli) (configured for a region where [AWS AppSync is available](https://docs.aws.amazon.com/general/latest/gr/rande.html#appsync_region)) `(npm install -g @aws-amplify/cli)`
 
 ## Installation
 Run the commands below and follow the prompts.
@@ -44,3 +53,8 @@ amplify add api
 #### Press enter to continue
 
 This will open your editor to modify the GraphQL schema.
+
+Execute the following command to save your API 
+amplify push
+
+
