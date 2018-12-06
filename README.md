@@ -39,20 +39,7 @@ amplify init
 Follow the prompts to set an editor, framework, type, source directory, build, and app start commands. 
 amplify add api
 
-#### C:\Users\webberr\aws-appsync-demo>amplify add api
-#### Please select from one of the below mentioned services GraphQL
-#### Provide API name: awsappsyncdemo
-#### Choose an authorization type for the API API key
-#### Do you have an annotated GraphQL schema? No
-#### Do you want a guided schema creation? true
-#### What best describes your project: (Use arrow keys)
-#### What best describes your project: Single object with fields (e.g., “Todo” with ID, name, description)
-#### Do you want to edit the schema now? (Y/n) Y
-#### Do you want to edit the schema now? Yes
-#### Please edit the file in your editor: C:\Users\ryan_\aws-appsync-demo\amplify\backend/api/awsappsyncdemo/schema.graphql
-#### Press enter to continue
-
-This will open your editor to modify the GraphQL schema.
+Follow the default prompts. 
 
 Execute the following command to save your API 
 amplify push
