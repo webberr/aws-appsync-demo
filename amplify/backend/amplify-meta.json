@@ -1,0 +1,38 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "awsappsyncdemo-20181204102517-authRole",
+			"UnauthRoleArn": "arn:aws:iam::340692285796:role/awsappsyncdemo-20181204102517-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::340692285796:role/awsappsyncdemo-20181204102517-authRole",
+			"Region": "us-west-2",
+			"DeploymentBucketName": "awsappsyncdemo-20181204102517-deployment",
+			"UnauthRoleName": "awsappsyncdemo-20181204102517-unauthRole",
+			"StackName": "awsappsyncdemo-20181204102517",
+			"StackId": "arn:aws:cloudformation:us-west-2:340692285796:stack/awsappsyncdemo-20181204102517/f33c3b70-f7f1-11e8-add7-50a68af39629"
+		}
+	},
+	"api": {
+		"awsappsyncdemo": {
+			"service": "AppSync",
+			"providerPlugin": "awscloudformation",
+			"output": {
+				"securityType": "API_KEY",
+				"GraphQLAPIIdOutput": "udhu4bslbjg57ngzdu354xfepa",
+				"GraphQLAPIEndpointOutput": "https://ya6bilabdjcyll7yux2op2ehuu.appsync-api.us-west-2.amazonaws.com/graphql",
+				"GraphQLAPIKeyOutput": "da2-5uiaspn4dbbtdnc4mmhjxaz6aq"
+			},
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/awsappsyncdemo-20181204102517-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+				"logicalId": "apiawsappsyncdemo"
+			},
+			"lastPushTimeStamp": "2018-12-05T00:20:11.284Z",
+			"lastPushDirHash": "i2qWx5OdMqL3diAEFkeulasWLB8="
+		}
+	},
+	"hosting": {
+		"S3AndCloudFront": {
+			"service": "S3AndCloudFront",
+			"providerPlugin": "awscloudformation"
+		}
+	}
+}
