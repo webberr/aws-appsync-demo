@@ -1,0 +1,15 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "awsappsyncdemo-20181204102517-authRole",
+            "UnauthRoleArn": "arn:aws:iam::340692285796:role/awsappsyncdemo-20181204102517-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::340692285796:role/awsappsyncdemo-20181204102517-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "awsappsyncdemo-20181204102517-deployment",
+            "UnauthRoleName": "awsappsyncdemo-20181204102517-unauthRole",
+            "StackName": "awsappsyncdemo-20181204102517",
+            "StackId": "arn:aws:cloudformation:us-west-2:340692285796:stack/awsappsyncdemo-20181204102517/f33c3b70-f7f1-11e8-add7-50a68af39629"
+        }
+    },
+    "publish-ignore": []
+}
